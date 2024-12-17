@@ -1,0 +1,522 @@
+{
+  "users": [
+    {
+      "id": "551f",
+      "username": "Gani",
+      "userEmail": "ganisergaliev29@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678"
+    },
+    {
+      "id": "ed82",
+      "username": "Arsen",
+      "userEmail": "200103475@stu.sdu.edu.kz",
+      "password": "00000000000",
+      "confirmPassword": "00000000000"
+    },
+    {
+      "id": "6b04",
+      "username": "Talgat",
+      "userEmail": "d@wee",
+      "password": "2222222222",
+      "confirmPassword": "2222222222"
+    },
+    {
+      "id": "e08e",
+      "username": "ghjkl;",
+      "userEmail": "200103475@stu.sdu.edu.kz",
+      "password": "1111111111",
+      "confirmPassword": "1111111111"
+    },
+    {
+      "id": "2ea3",
+      "username": "fghjkl;",
+      "userEmail": "200103475@stu.sdu.edu.kz",
+      "password": "12345678",
+      "confirmPassword": "12345678"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Levi's 501 Jeans",
+      "category": "Clothing",
+      "price": 5000,
+      "description": "Classic jeans with a straight cut.",
+      "stock": 120,
+      "image": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ndgAAOSwstJZVRVK/$_57.JPG?set_id=8800005007",
+      "details": {
+        "subcategory": "Men's Clothing",
+        "brand": "Levi's"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Nike T-shirt",
+      "category": "Clothing",
+      "price": 1500,
+      "description": "T-shirt with Nike logo.",
+      "stock": 150,
+      "image": "https://avatars.mds.yandex.net/i?id=975815777fa3f857a924bbeb94fb24f6ce10bea6-10124751-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Men's Clothing",
+        "brand": "Nike"
+      }
+    },
+    {
+      "id": "3",
+      "name": "The North Face Jacket",
+      "category": "Clothing",
+      "price": 9500,
+      "description": "Warm winter jacket for women.",
+      "stock": 60,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Women's Clothing",
+        "brand": "The North Face"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Zara Dress",
+      "category": "Clothing",
+      "price": 4000,
+      "description": "Elegant dress with embroidery.",
+      "stock": 80,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Women's Clothing",
+        "brand": "Zara"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Apple iPhone 13",
+      "category": "Electronics",
+      "price": 80000,
+      "description": "Smartphone with a 6.1-inch display and A15 Bionic chip.",
+      "stock": 200,
+      "image": "https://avatars.mds.yandex.net/i?id=dc2e9b1ebe639e35ea1257c498629bf2f24fd8b1-3979482-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Smartphones",
+        "brand": "Apple"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Samsung 55\" QLED TV",
+      "category": "Electronics",
+      "price": 70000,
+      "description": "4K QLED TV with stunning picture quality.",
+      "stock": 50,
+      "image": "https://avatars.mds.yandex.net/i?id=e7f82e161707cc500cd07e7431d5189481d6a9d6-10245177-images-thumbs&n=13",
+      "details": {
+        "subcategory": "TVs",
+        "brand": "Samsung"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Dell XPS 13 Laptop",
+      "category": "Electronics",
+      "price": 90000,
+      "description": "Compact and powerful laptop for work and play.",
+      "stock": 30,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Laptops",
+        "brand": "Dell"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Philips HD8650 Coffee Maker",
+      "category": "Electronics",
+      "price": 12000,
+      "description": "High-quality coffee maker with adjustable settings.",
+      "stock": 40,
+      "image": "https://cdn1.ozone.ru/s3/multimedia-u/6657772422.jpg",
+      "details": {
+        "subcategory": "Coffee Machines",
+        "brand": "Philips"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Dyson V11 Cordless Vacuum Cleaner",
+      "category": "Electronics",
+      "price": 45000,
+      "description": "Powerful cordless vacuum with up to 60 minutes of runtime.",
+      "stock": 35,
+      "image": "https://avatars.mds.yandex.net/i?id=53530a3bbadfa337e311233167ee4b1bce664f53-12851522-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Vacuum Cleaners",
+        "brand": "Dyson"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Acer Predator Gaming Monitor",
+      "category": "Electronics",
+      "price": 25000,
+      "description": "Curved 27-inch gaming monitor with 144Hz refresh rate.",
+      "stock": 25,
+      "image": "https://avatars.mds.yandex.net/i?id=a917a6df23625b9007a824cbfc1f3714a9429197-10397524-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Monitors",
+        "brand": "Acer"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Pedigree Dog Food",
+      "category": "Pets",
+      "price": 2000,
+      "description": "Nutritious dog food with chicken flavor.",
+      "stock": 500,
+      "image": "https://avatars.mds.yandex.net/i?id=2327a3373add45ab23cc9ed8d8f51c0019b6fb9c-5171547-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Dog Food",
+        "brand": "Pedigree"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Cat Tree Tower",
+      "category": "Pets",
+      "price": 4500,
+      "description": "Multi-level cat tree with scratching posts.",
+      "stock": 30,
+      "image": "https://avatars.mds.yandex.net/i?id=6c26adc1a23d73d1b54e641d10388106c0cf0811-9843573-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Cat Furniture",
+        "brand": "Petsmart"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Aquarium Fish Tank",
+      "category": "Pets",
+      "price": 12000,
+      "description": "30-gallon fish tank with filtration system.",
+      "stock": 15,
+      "image": "https://avatars.mds.yandex.net/i?id=2e5b905ae7b910c76b6ebaa84407903e8a0be616-5267851-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Fish Tanks",
+        "brand": "AquaLife"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Pet Carrier Bag",
+      "category": "Pets",
+      "price": 1500,
+      "description": "Durable and comfortable carrier bag for small pets.",
+      "stock": 70,
+      "image": "https://sc01.alicdn.com/kf/H2283234b600048f4ac34daaa285df2778.jpg",
+      "details": {
+        "subcategory": "Pet Accessories",
+        "brand": "PetCo"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Car Battery 12V",
+      "category": "Automotive",
+      "price": 3500,
+      "description": "Reliable 12V car battery with long-lasting performance.",
+      "stock": 100,
+      "image": "https://avatars.mds.yandex.net/i?id=8d90e788b77c9e68d124c5761f4a4a44b7ef17ea-4578267-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Car Parts",
+        "brand": "Bosch"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Michelin Pilot Sport 4 Tires",
+      "category": "Automotive",
+      "price": 25000,
+      "description": "High-performance tires for sports cars.",
+      "stock": 40,
+      "image": "https://avatars.mds.yandex.net/i?id=6aeb4e75686746d453e29dacf25db7e281f7efd8-10814708-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Tires",
+        "brand": "Michelin"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Toyota Corolla 2024",
+      "category": "Automotive",
+      "price": 1500000,
+      "description": "Fuel-efficient sedan with advanced safety features.",
+      "stock": 5,
+      "image": "https://avatars.mds.yandex.net/i?id=dc210eb2cc1bc2959eea42b5f4b660b5c0923430-9097048-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Cars",
+        "brand": "Toyota"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Ford Mustang GT 2024",
+      "category": "Automotive",
+      "price": 4000000,
+      "description": "Powerful sports car with 450 hp engine.",
+      "stock": 3,
+      "image": "https://avatars.mds.yandex.net/i?id=3c66907d374e58a602326dfbf05f2dac691ea703-4959095-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Cars",
+        "brand": "Ford"
+      }
+    },
+    {
+      "id": "19",
+      "name": "Samsung Galaxy S23",
+      "category": "Electronics",
+      "price": 70000,
+      "description": "5G-capable smartphone with 120Hz display.",
+      "stock": 150,
+      "image": "https://avatars.mds.yandex.net/i?id=224ecb8fb5e36a070724728c5a95301731635fbd-5234670-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Smartphones",
+        "brand": "Samsung"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Google Pixel 8",
+      "category": "Electronics",
+      "price": 75000,
+      "description": "Smartphone with Google Tensor G3 chip and AI features.",
+      "stock": 100,
+      "image": "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65cdd57b7cd632381f10ed02_65cdd887fda6df2ef7dc1d0d/scale_1200",
+      "details": {
+        "subcategory": "Smartphones",
+        "brand": "Google"
+      }
+    },
+    {
+      "id": "21",
+      "name": "HP Envy 15 Laptop",
+      "category": "Electronics",
+      "price": 95000,
+      "description": "High-performance laptop with Intel i7 processor.",
+      "stock": 25,
+      "image": "https://avatars.mds.yandex.net/i?id=a688947ea97e65dfd414c4a68a765be084228ce0-5163185-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Laptops",
+        "brand": "HP"
+      }
+    },
+    {
+      "id": "22",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Electronics",
+      "price": 25000,
+      "description": "Wireless noise-cancelling headphones with exceptional sound.",
+      "stock": 40,
+      "image": "https://avatars.mds.yandex.net/i?id=f2d337376859f9114549cff89b2151ee_l-5869483-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Headphones",
+        "brand": "Sony"
+      }
+    },
+    {
+      "id": "23",
+      "name": "Bose SoundLink Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 18000,
+      "description": "Portable Bluetooth speaker with deep bass and clear sound.",
+      "stock": 70,
+      "image": "https://avatars.mds.yandex.net/i?id=ec93532e10a2bd94f98066033f23126b18fa1e24e5c9c916-5869551-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Speakers",
+        "brand": "Bose"
+      }
+    },
+    {
+      "id": "24",
+      "name": "Canon EOS 5D Mark IV Camera",
+      "category": "Electronics",
+      "price": 250000,
+      "description": "Full-frame DSLR camera with 30.4 MP sensor.",
+      "stock": 15,
+      "image": "https://avatars.mds.yandex.net/i?id=f527dd8bf09f879bd9eeca44728806c9358147ca-9084061-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Cameras",
+        "brand": "Canon"
+      }
+    },
+    {
+      "id": "25",
+      "name": "GoPro HERO10 Black",
+      "category": "Electronics",
+      "price": 45000,
+      "description": "Action camera with 5.3K video and hyper-smooth stabilization.",
+      "stock": 50,
+      "image": "https://avatars.mds.yandex.net/i?id=dfc6056cda0bae2a9d4ec024bd96671fd988c678-12488046-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Cameras",
+        "brand": "GoPro"
+      }
+    },
+    {
+      "id": "26",
+      "name": "Samsung Galaxy Watch 6",
+      "category": "Electronics",
+      "price": 25000,
+      "description": "Smartwatch with health tracking and customizable watch faces.",
+      "stock": 60,
+      "image": "https://avatars.mds.yandex.net/i?id=85a8c2ca0465486ef3363c461bce3c78bf16d431-8497314-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Wearables",
+        "brand": "Samsung"
+      }
+    },
+    {
+      "id": "27",
+      "name": "Dyson Airwrap Styler",
+      "category": "Electronics",
+      "price": 35000,
+      "description": "Hair styling tool with multiple attachments and no extreme heat.",
+      "stock": 45,
+      "image": "https://avatars.mds.yandex.net/i?id=e26d69ee417f89bdf9c195e4ec8554c602e03fcd-8487335-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Beauty Gadgets",
+        "brand": "Dyson"
+      }
+    },
+    {
+      "id": "28",
+      "name": "Philips Sonicare Toothbrush",
+      "category": "Electronics",
+      "price": 9000,
+      "description": "Electric toothbrush with 2-week battery life and pressure sensor.",
+      "stock": 100,
+      "image": "https://avatars.mds.yandex.net/i?id=1d40a356e56d510c89885f2bd2bb86969d699086-8246369-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Personal Care",
+        "brand": "Philips"
+      }
+    },
+    {
+      "id": "29",
+      "name": "Sony PlayStation 5",
+      "category": "Electronics",
+      "price": 50000,
+      "description": "Next-gen gaming console with 4K support and ultra-fast loading.",
+      "stock": 70,
+      "image": "https://avatars.mds.yandex.net/i?id=59853af777da930ca7f3519c94c018ceeead931d-9238775-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Gaming",
+        "brand": "Sony"
+      }
+    },
+    {
+      "id": "30",
+      "name": "Microsoft Xbox Series X",
+      "category": "Electronics",
+      "price": 50000,
+      "description": "High-performance gaming console with 4K gaming capabilities.",
+      "stock": 40,
+      "image": "https://avatars.mds.yandex.net/i?id=682ffde2d6ae1fb1f22409dbc8ecca9df955d9e1-8497013-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Gaming",
+        "brand": "Microsoft"
+      }
+    },
+    {
+      "id": "31",
+      "name": "Pedigree Dog Leash",
+      "category": "Pets",
+      "price": 800,
+      "description": "Durable dog leash for comfortable walks.",
+      "stock": 300,
+      "image": "https://avatars.mds.yandex.net/i?id=fb9fb7d619a7d4340afaba34c9f4e26c0a3d8fef-9182287-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Dog Accessories",
+        "brand": "Pedigree"
+      }
+    },
+    {
+      "id": "32",
+      "name": "Cat Litter Box",
+      "category": "Pets",
+      "price": 2500,
+      "description": "Easy-to-clean cat litter box with high walls.",
+      "stock": 100,
+      "image": "https://avatars.mds.yandex.net/i?id=82bfc3128e2ccdf97f2da19cbf659193f2be4b0d-8803246-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Cat Accessories",
+        "brand": "PetCo"
+      }
+    },
+    {
+      "id": "33",
+      "name": "Bird Cage",
+      "category": "Pets",
+      "price": 4000,
+      "description": "Spacious cage for small to medium-sized birds.",
+      "stock": 50,
+      "image": "https://avatars.mds.yandex.net/i?id=90adf4835e77136fe52e134a8075fe1dbb356534-9181172-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Bird Accessories",
+        "brand": "PetSmart"
+      }
+    },
+    {
+      "id": "34",
+      "name": "Pet Cooling Mat",
+      "category": "Pets",
+      "price": 1500,
+      "description": "Cooling mat to keep your pet comfortable in hot weather.",
+      "stock": 200,
+      "image": "https://avatars.mds.yandex.net/i?id=f5bf91d27019c0307dd79f97e3db3b2f62aaf99d-4615258-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Pet Accessories",
+        "brand": "PetCo"
+      }
+    },
+    {
+      "id": "35",
+      "name": "Automatic Pet Feeder",
+      "category": "Pets",
+      "price": 5000,
+      "description": "Programmable pet feeder with automatic portion control.",
+      "stock": 70,
+      "image": "https://avatars.mds.yandex.net/i?id=821c1962f6b9b23828c6840799889457-6209931-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Pet Accessories",
+        "brand": "PetSafe"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Clothing",
+      "description": "Clothing for men, women, and children.",
+      "icon": "👗"
+    },
+    {
+      "id": "2",
+      "name": "Electronics",
+      "description": "Latest electronic gadgets and accessories.",
+      "icon": "📱"
+    },
+    {
+      "id": "3",
+      "name": "Pets",
+      "description": "Products for your pets, including food, accessories, and care items.",
+      "icon": "🐾"
+    },
+    {
+      "id": "4",
+      "name": "Automotive",
+      "description": "Automotive products, from car parts to accessories.",
+      "icon": "🚗"
+    }
+  ]
+}
