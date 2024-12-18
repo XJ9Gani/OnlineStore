@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import React, { useEffect } from "react";
 import { registerUser } from "../store/userSlice/userSlice";
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Registration = () => {
   const dispatch = useDispatch();
@@ -19,6 +19,7 @@ const Registration = () => {
   const submitRegistration = async (data) => {
     dispatch(registerUser(data));
     localStorage.setItem("currentUser", JSON.stringify(data));
+    localStorage.setItem("username", JSON.stringify(data.username));
   };
 
   useEffect(() => {
@@ -109,9 +110,16 @@ const Registration = () => {
 
         {error && <p className="text-red-500 text-xl">{error}</p>}
 
-        <button className="w-1/2 h-[5vh] bg-black  text-white transition duration-200 ease-in-out hover:bg-white hover:text-black">
-          Add
+        <button className="w-1/2 h-[5vh] shadow-white bg-gray-900  text-white transition duration-200 ease-in-out hover:bg-white hover:text-black">
+          Sing Up
         </button>
+        <hr className="border-white w-[30vw]" />
+        <NavLink
+          to="/login"
+          className="w-1/2 h-[5vh] bg-white block text-center p-[0.5rem] text-black  transition duration-200 ease-in-out hover:bg-black hover:text-white"
+        >
+          Sing In
+        </NavLink>
       </form>
     </section>
   );

@@ -3,6 +3,21 @@ import axios from "axios";
 
 const API_USER = "http://localhost:3000/users";
 
+export const addToCart = createAsyncThunk(
+  "user/addToCart",
+  async (product, userData) => {
+    try {
+      const response = await axios.post(API_USER, {
+        ...userData,
+        inBasket: product,
+      });
+      return response.data;
+    } catch (e) {
+      return e;
+    }
+  }
+);
+
 export const registerUser = createAsyncThunk(
   "user/registerUser",
   async (userData, { rejectWithValue }) => {

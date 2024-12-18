@@ -8,8 +8,8 @@ import Login from "../pages/Login";
 import ProductDetailPage from "../pages/ProductDetailPage";
 const AppRouter = () => {
   const routes = useRoutes([
-    { path: "/", element: <HomePage /> },
-    { path: "/registration", element: <Registration /> },
+    { path: "/home", element: <HomePage /> },
+    { path: "/", element: <Registration /> },
     { path: "/profile", element: <UserProfile /> },
     { path: "/products", element: <Products /> },
     { path: "/login", element: <Login /> },

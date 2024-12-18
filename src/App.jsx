@@ -6,8 +6,9 @@ const App = () => {
   const location = useLocation();
   return (
     <>
-      {location.pathname !== "/registration" &&
-        location.pathname !== "/login" && <Header />}
+      {location.pathname !== "/" && location.pathname !== "/login" && (
+        <Header />
+      )}
       <AppRouter />
     </>
   );

@@ -1,39 +1,39 @@
 {
   "users": [
     {
-      "id": "551f",
+      "id": "81a4",
       "username": "Gani",
-      "userEmail": "ganisergaliev29@gmail.com",
+      "userEmail": "200103475@stu.sdu.edu.kz",
+      "password": "ASX052mu",
+      "confirmPassword": "ASX052mu"
+    },
+    {
+      "id": "9e97",
+      "username": "Sanzhar",
+      "userEmail": "NabiSAn@ganm",
       "password": "12345678",
       "confirmPassword": "12345678"
     },
     {
-      "id": "ed82",
-      "username": "Arsen",
-      "userEmail": "200103475@stu.sdu.edu.kz",
-      "password": "00000000000",
-      "confirmPassword": "00000000000"
+      "id": "337c",
+      "username": "Nurs",
+      "userEmail": "sanzhar@gmail.com",
+      "password": "sssssssss",
+      "confirmPassword": "sssssssss"
     },
     {
-      "id": "6b04",
-      "username": "Talgat",
-      "userEmail": "d@wee",
-      "password": "2222222222",
-      "confirmPassword": "2222222222"
-    },
-    {
-      "id": "e08e",
-      "username": "ghjkl;",
-      "userEmail": "200103475@stu.sdu.edu.kz",
-      "password": "1111111111",
-      "confirmPassword": "1111111111"
-    },
-    {
-      "id": "2ea3",
-      "username": "fghjkl;",
-      "userEmail": "200103475@stu.sdu.edu.kz",
+      "id": "1ace",
+      "username": "asdfghjkl",
+      "userEmail": "d@wsss",
       "password": "12345678",
       "confirmPassword": "12345678"
+    },
+    {
+      "id": "4085",
+      "username": "dddd",
+      "userEmail": "multibrandoviyy@gmail.com",
+      "password": "metronome",
+      "confirmPassword": "metronome"
     }
   ],
   "products": [
@@ -517,6 +517,64 @@
       "name": "Automotive",
       "description": "Automotive products, from car parts to accessories.",
       "icon": "🚗"
+    }
+  ],
+  "inBasket": [
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "8",
+      "productName": "Philips HD8650 Coffee Maker",
+      "price": 12000,
+      "image": "https://cdn1.ozone.ru/s3/multimedia-u/6657772422.jpg",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "8",
+      "productName": "Philips HD8650 Coffee Maker",
+      "price": 12000,
+      "image": "https://cdn1.ozone.ru/s3/multimedia-u/6657772422.jpg",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "8",
+      "productName": "Philips HD8650 Coffee Maker",
+      "price": 12000,
+      "image": "https://cdn1.ozone.ru/s3/multimedia-u/6657772422.jpg",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "35",
+      "productName": "Automatic Pet Feeder",
+      "price": 5000,
+      "image": "https://avatars.mds.yandex.net/i?id=821c1962f6b9b23828c6840799889457-6209931-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
     }
   ]
 }

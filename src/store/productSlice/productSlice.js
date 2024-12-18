@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 const API_PRODUCTS = "http://localhost:3000/products";
-const API_CATEGORIES = "http://localhost:3000/categories";
+const API_INBASKET = "http://localhost:3000/inBasket";
 
 const initialState = {
   products: [],
@@ -11,6 +11,7 @@ const initialState = {
   error: null,
 };
 
+// Fetch products from API
 export const getProducts = createAsyncThunk(
   "products/getProducts",
   async () => {
@@ -19,6 +20,19 @@ export const getProducts = createAsyncThunk(
       return response.data;
     } catch (e) {
       throw Error("Failed to fetch products: " + e.message);
+    }
+  }
+);
+
+// Add product to basket
+export const addToCart = createAsyncThunk(
+  "products/addToCart",
+  async (data) => {
+    try {
+      const response = await axios.post(API_INBASKET, data); // Send product details to the inBasket API
+      return response.data;
+    } catch (e) {
+      throw Error("Failed to add to cart: " + e.message);
     }
   }
 );
@@ -50,6 +64,14 @@ const productSlice = createSlice({
       .addCase(getProducts.rejected, (state, action) => {
         state.status = "failed";
         state.error = action.error.message;
+      })
+      .addCase(addToCart.fulfilled, (state, action) => {
+        // Handle the response when the product is successfully added to the cart
+        console.log("Product added to cart", action.payload);
+      })
+      .addCase(addToCart.rejected, (state, action) => {
+        // Handle errors when adding to cart
+        console.error("Failed to add product to cart:", action.error.message);
       });
   },
 });

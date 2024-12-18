@@ -8,7 +8,6 @@ import {
   resetFilteredProducts,
 } from "../store/productSlice/productSlice";
 import { Link, NavLink } from "react-router-dom";
-import Category from "../components/Category";
 
 const Products = () => {
   const dispatch = useDispatch();
@@ -46,21 +45,24 @@ const Products = () => {
           Reset Filter
         </button>
       </div>
-      <Category />
       {status === "loading" && <p>Loading...</p>}
       {status === "failed" && <p>Error: {error}</p>}
 
-      <ul className="grid grid-cols-4 w-[90vw] mx-auto">
+      <ul className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 w-[90vw] mx-auto ">
         {(filteredProducts.length ? filteredProducts : products).map(
           (product) => (
-            <NavLink to={`/product/${product.id}`} key={product.id}>
-              <li className="w-[300px] h-[400px] overflow-hidden border shadow-md rounded-lg my-[40px]">
+            <NavLink
+              className="mx-auto"
+              to={`/product/${product.id}`}
+              key={product.id}
+            >
+              <li className="w-[300px] transition ease-in-out duration-200 h-[350px] overflow-hidden border shadow-md rounded-lg my-[40px]  hover:shadow-lg hover:translate-y-4">
                 <img
                   src={product.image || imageHolder}
                   className="w-full h-[250px] shadow-md"
                 />
                 <div className="flex">
-                  <button>
+                  <button className="p-[0.5rem]">
                     <img className="w-[30px]" src={heartIcon} alt="" />
                   </button>
                   <h1 className="text-2xl w-full  text-black text-center">
