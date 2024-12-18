@@ -11,7 +11,6 @@ const initialState = {
   error: null,
 };
 
-// Fetch products from API
 export const getProducts = createAsyncThunk(
   "products/getProducts",
   async () => {
@@ -24,12 +23,11 @@ export const getProducts = createAsyncThunk(
   }
 );
 
-// Add product to basket
 export const addToCart = createAsyncThunk(
   "products/addToCart",
   async (data) => {
     try {
-      const response = await axios.post(API_INBASKET, data); // Send product details to the inBasket API
+      const response = await axios.post(API_INBASKET, data);
       return response.data;
     } catch (e) {
       throw Error("Failed to add to cart: " + e.message);
@@ -66,11 +64,9 @@ const productSlice = createSlice({
         state.error = action.error.message;
       })
       .addCase(addToCart.fulfilled, (state, action) => {
-        // Handle the response when the product is successfully added to the cart
         console.log("Product added to cart", action.payload);
       })
       .addCase(addToCart.rejected, (state, action) => {
-        // Handle errors when adding to cart
         console.error("Failed to add product to cart:", action.error.message);
       });
   },

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const linkStyle =
-    "p-[0.5rem] hover:bg-[#1a1a1a] rounded-lg hover:text-white transition duration-200 ease-in-out";
+    "lg:text-xl max-sm:text-center max-sm:text-[1rem] max-sm:w-[20px] max-sm:h-[20px] p-[0.5rem] hover:bg-[#1a1a1a] rounded-lg hover:text-white transition duration-200 ease-in-out";
 
   const isActive = useCallback(
     ({ isActive }) =>
@@ -14,13 +14,19 @@ const Header = () => {
 
   return (
     <header
-      className="bg-white h-[10vh] sm:h-[8vh] border flex justify-around items-center shadow-md z-50
-        lg:sticky lg:top-0 lg:left-0   
-        md:fixed md:bottom-0 md:left-0 
-        sm:fixed sm:bottom-0 sm:left-0"
+      className="bg-white h-[10vh] border flex justify-around items-center shadow-md z-10
+      lg:sticky lg:top-0 lg:left-0 
+      md:fixed md:bottom-0 md:left-0 
+      max-sm:fixed max-sm:bottom-0 max-sm:left-0 
+      max-sm:w-full
+      "
     >
       <nav className="flex gap-10 text-xl p-[1rem]">
-        <img src={shopIcon} className="w-12 h-12 m-0" alt="Shop Icon" />
+        <img
+          src={shopIcon}
+          className="w-12 h-12 m-0  max-sm:w-8 max-sm:h-8"
+          alt="Shop Icon"
+        />
         <NavLink to="/home" className={isActive}>
           Home Page
         </NavLink>
@@ -33,10 +39,16 @@ const Header = () => {
       </nav>
 
       <nav className="flex gap-10 text-xl p-[1rem]">
-        <NavLink to="/" className={isActive}>
+        <NavLink
+          to="/"
+          className={`${isActive} max-sm:hidden p-[0.5rem] text-white`}
+        >
           Sign Up
         </NavLink>
-        <NavLink to="/login" className={isActive}>
+        <NavLink
+          to="/login"
+          className={`${isActive} max-sm:hidden p-[0.5rem] text-white`}
+        >
           Sign In
         </NavLink>
       </nav>

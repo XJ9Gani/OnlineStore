@@ -33,7 +33,7 @@ const Products = () => {
     <div>
       <div className="flex justify-center gap-3 ">
         <input
-          className="w-[400px] h-[50px] p-[1rem] transition-all duration-200 ease-in-out   block border shadow-lg my-10  focus:w-[600px] "
+          className="w-[400px] h-[50px] p-[1rem] transition-all duration-200 ease-in-out   block border shadow-lg my-10  focus:w-[500px] md:w-[300px] max-sm:w-[200px]"
           type="text"
           placeholder="Search products"
           onChange={handleFilterChange}

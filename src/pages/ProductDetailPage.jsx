@@ -74,16 +74,18 @@ const ProductDetailPage = () => {
   if (error) return <div>{error}</div>;
 
   return (
-    <div className="mx-auto w-[80vw] flex my-[10px]">
+    <div className="mx-auto w-[80vw] md:w-[50vw] max-sm:flex-col flex my-[10px]">
       <img
         src={product.image}
         className="w-[400px] h-[500px] object-cover"
         alt={product.name}
       />
       <div>
-        <h1 className="text-5xl text-center w-[800px]">{product.name}</h1>
+        <h1 className="text-5xl text-center w-[800px] max-sm:w-[300px]  ">
+          {product.name}
+        </h1>
         <div className="mx-[10px] flex flex-col justify-around my-[100px] h-[40vh]">
-          <h1 className="text-5xl font-bold">Details:</h1>
+          <h1 className="text-5xl font-bold ">Details:</h1>
           <p className="text-2xl">{product.description}</p>
           <p>
             <span className="text-2xl font-bold">Category:</span>

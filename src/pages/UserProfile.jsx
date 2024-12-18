@@ -5,7 +5,6 @@ import { useSelector } from "react-redux";
 const UserProfile = () => {
   const [currentUser, setCurrentUser] = useState(null);
   const [userProducts, setUserProducts] = useState([]);
-  const { status, error } = useSelector((state) => state.user);
 
   useEffect(() => {
     const user = localStorage.getItem("currentUser");
@@ -27,7 +26,7 @@ const UserProfile = () => {
       <div className="flex justify-center items-center flex-col">
         <img
           className="w-[200px] h-[200px] border rounded-full object-cover"
-          src={currentUser?.img || imageHolder}
+          src="https://avatars.mds.yandex.net/i?id=2f942270d036dd442f20f4d10aa7504279b0cbbb-4577690-images-thumbs&n=13"
           alt={currentUser?.username}
         />
         <h1 className="text-center text-2xl">{currentUser?.username}</h1>

@@ -37,11 +37,23 @@ const Registration = () => {
 
   return (
     <section className="h-[100vh] relative">
-      <div className="absolute inset-0 bg-[url(https://cdn.culture.ru/images/78aae915-0449-5683-9fe7-767da9281f94)] bg-cover z-0 filter brightness-75"></div>
+      <div
+        className="absolute 
+      inset-0
+      max-sm:bg-[url(https://avatars.mds.yandex.net/i?id=5ae0bc543cec08904cd5bd707015607ea67b713e-5365021-images-thumbs&n=13)] 
+      max-sm:bg-contain
+      bg-[url(https://cdn.culture.ru/images/78aae915-0449-5683-9fe7-767da9281f94)] bg-cover z-0 filter brightness-75"
+      ></div>
 
       <form
         onSubmit={handleSubmit(submitRegistration)}
-        className="bg-[rgba(0,0,0,0.5)] w-[50vw] h-[90vh] z-10 absolute top-[5vh] left-[25vw] rounded-lg flex flex-col justify-center items-center gap-[40px]"
+        className="bg-[rgba(0,0,0,0.5)] lg:w-[50vw] lg:h-[90vh]
+        z-10 absolute lg:top-[5vh] lg:left-[25vw] rounded-lg flex 
+        flex-col justify-center items-center gap-[40px]
+        max-sm:w-[90vw]
+        max-sm:top-[5vh]
+        max-sm:left-[3vh]
+        "
       >
         <h1 className="text-5xl text-white font-bold">Registration</h1>
         <input
