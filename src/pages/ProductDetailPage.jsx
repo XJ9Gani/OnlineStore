@@ -68,6 +68,8 @@ const ProductDetailPage = () => {
     localStorage.setItem(user.username, JSON.stringify(currentBasket));
 
     dispatch(addToCart(basketObj));
+
+    alert("The product added to your cart on profile");
   };
 
   if (loading) return <div>Loading...</div>;

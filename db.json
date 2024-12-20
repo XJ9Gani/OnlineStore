@@ -1,39 +1,18 @@
 {
   "users": [
     {
-      "id": "81a4",
-      "username": "Gani",
-      "userEmail": "200103475@stu.sdu.edu.kz",
-      "password": "ASX052mu",
-      "confirmPassword": "ASX052mu"
-    },
-    {
-      "id": "9e97",
-      "username": "Sanzhar",
-      "userEmail": "NabiSAn@ganm",
+      "id": "f971",
+      "username": "KKKKK",
+      "userEmail": "main@com",
       "password": "12345678",
       "confirmPassword": "12345678"
     },
     {
-      "id": "337c",
-      "username": "Nurs",
-      "userEmail": "sanzhar@gmail.com",
-      "password": "sssssssss",
-      "confirmPassword": "sssssssss"
-    },
-    {
-      "id": "1ace",
-      "username": "asdfghjkl",
-      "userEmail": "d@wsss",
-      "password": "12345678",
-      "confirmPassword": "12345678"
-    },
-    {
-      "id": "4085",
-      "username": "dddd",
-      "userEmail": "multibrandoviyy@gmail.com",
-      "password": "metronome",
-      "confirmPassword": "metronome"
+      "id": "d48f",
+      "username": "yelnur",
+      "userEmail": "190113015@stu.sdu.edu.kz",
+      "password": "Qwerty123",
+      "confirmPassword": "Qwerty123"
     }
   ],
   "products": [
@@ -491,6 +470,786 @@
         "subcategory": "Pet Accessories",
         "brand": "PetSafe"
       }
+    },
+    {
+      "id": "36",
+      "name": "Dollhouse",
+      "category": "Toys & Games",
+      "price": 3000,
+      "description": "Wooden dollhouse with furniture and accessories.",
+      "stock": 80,
+      "image": "https://avatars.mds.yandex.net/i?id=dc5bc129da6099ff2d5c8a6695e8b80a2d51f7bb-8075965-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Dolls & Playsets",
+        "brand": "MiniWorld"
+      }
+    },
+    {
+      "id": "37",
+      "name": "Cereal Box",
+      "category": "Food & Grocery",
+      "price": 400,
+      "description": "Healthy breakfast cereal made with whole grains.",
+      "stock": 300,
+      "image": "https://avatars.mds.yandex.net/i?id=497b70eac1486da46ee5d53fbee65ef1_l-3884575-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Breakfast Foods",
+        "brand": "HealthyGrains"
+      }
+    },
+    {
+      "id": "38",
+      "name": "Educational Toy",
+      "category": "Toys & Games",
+      "price": 1000,
+      "description": "Interactive educational toy for learning letters and numbers.",
+      "stock": 250,
+      "image": "https://www.mos.ru/upload/newsfeed/articles/Depositphotos_166543534_xl-2015(18).jpg",
+      "details": {
+        "subcategory": "Learning Toys",
+        "brand": "SmartToys"
+      }
+    },
+    {
+      "id": "39",
+      "name": "Almonds",
+      "category": "Food & Grocery",
+      "price": 900,
+      "description": "Fresh and crunchy raw almonds.",
+      "stock": 400,
+      "image": "https://avatars.mds.yandex.net/i?id=e9910127da1acd1c355e65bde6797fe6ab435ca6-5879341-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Nuts",
+        "brand": "NuttyDelight"
+      }
+    },
+    {
+      "id": "40",
+      "name": "Puzzle Set",
+      "category": "Toys & Games",
+      "price": 700,
+      "description": "Challenging jigsaw puzzle with 1000 pieces.",
+      "stock": 180,
+      "image": "https://avatars.mds.yandex.net/i?id=5e0daa07da296c078158d99dbc68fee02c75748a-7743892-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Puzzles",
+        "brand": "BrainBusters"
+      }
+    },
+    {
+      "id": "41",
+      "name": "Organic Olive Oil",
+      "category": "Food & Grocery",
+      "price": 2500,
+      "description": "Cold-pressed organic olive oil for cooking and salads.",
+      "stock": 120,
+      "image": "https://avatars.mds.yandex.net/i?id=1f31125b6ed8e1a49be5ac822506978b2337de84-9881038-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Oils & Vinegars",
+        "brand": "PureOlive"
+      }
+    },
+    {
+      "id": "42",
+      "name": "Toy Train Set",
+      "category": "Toys & Games",
+      "price": 2000,
+      "description": "Complete toy train set with tracks and stations.",
+      "stock": 100,
+      "image": "https://i.pinimg.com/736x/29/93/7e/29937e693628219f9d03662cec04ef0b.jpg",
+      "details": {
+        "subcategory": "Toy Vehicles",
+        "brand": "TrackMaster"
+      }
+    },
+    {
+      "id": "43",
+      "name": "Rice Pack",
+      "category": "Food & Grocery",
+      "price": 1200,
+      "description": "Premium quality long-grain rice pack.",
+      "stock": 350,
+      "image": "https://i.pinimg.com/originals/4b/5a/0c/4b5a0cb393598ce843921227f1ecb6e7.png",
+      "details": {
+        "subcategory": "Grains",
+        "brand": "GoldenHarvest"
+      }
+    },
+    {
+      "id": "44",
+      "name": "Action Figure Set",
+      "category": "Toys & Games",
+      "price": 3500,
+      "description": "Set of 5 action figures with detailed costumes.",
+      "stock": 60,
+      "image": "https://avatars.mds.yandex.net/i?id=5c1debf521ace70c65491431182bb0d7_l-9783932-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Action Figures",
+        "brand": "HeroToys"
+      }
+    },
+    {
+      "id": "45",
+      "name": "Coffee Beans",
+      "category": "Food & Grocery",
+      "price": 1500,
+      "description": "Premium quality whole coffee beans for fresh brews.",
+      "stock": 200,
+      "image": "https://avatars.mds.yandex.net/i?id=ac50e8f594fbe43403f1cbbe55adcb40_l-5232533-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Coffee & Tea",
+        "brand": "BrewMaster"
+      }
+    },
+    {
+      "id": "46",
+      "name": "Toy Car",
+      "category": "Toys & Games",
+      "price": 1200,
+      "description": "Remote-controlled toy car with rechargeable batteries.",
+      "stock": 150,
+      "image": "https://i.pinimg.com/originals/8d/66/3e/8d663e0123e73e9eb0d4b81a1f4b98d0.jpg",
+      "details": {
+        "subcategory": "Remote-Controlled Toys",
+        "brand": "SpeedToys"
+      }
+    },
+    {
+      "id": "47",
+      "name": "Chocolate Bars",
+      "category": "Food & Grocery",
+      "price": 500,
+      "description": "Delicious milk chocolate bars with a creamy texture.",
+      "stock": 500,
+      "image": "https://tabakovod.ru/wp-content/uploads/2021/10/1580944091_11-p-shokolad-50.jpg",
+      "details": {
+        "subcategory": "Snacks",
+        "brand": "SweetTreats"
+      }
+    },
+    {
+      "id": "48",
+      "name": "Fresh Tomatoes",
+      "category": "Food & Grocery",
+      "price": 1200,
+      "description": "Fresh, organic tomatoes from local farms.",
+      "stock": 350,
+      "image": "https://avatars.mds.yandex.net/i?id=b76097cd1bb358662c1df3dd9b7b47baa182f7ae-9181224-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Produce",
+        "brand": "FarmFresh"
+      }
+    },
+    {
+      "id": "49",
+      "name": "Stuffed Animal",
+      "category": "Toys & Games",
+      "price": 1500,
+      "description": "Soft and cuddly stuffed animal in the shape of a bear.",
+      "stock": 300,
+      "image": "https://avatars.mds.yandex.net/i?id=ee3ad847195e9181b04a6ed55b848a288a8df82f-10257741-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Plush Toys",
+        "brand": "CuddleToy"
+      }
+    },
+    {
+      "id": "50",
+      "name": "Canned Tuna",
+      "category": "Food & Grocery",
+      "price": 800,
+      "description": "High-quality canned tuna in water.",
+      "stock": 250,
+      "image": "https://avatars.mds.yandex.net/i?id=eecfedc0b624ecd194f2cb96578ea20a86d20cd0-9202550-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Canned Goods",
+        "brand": "OceanFresh"
+      }
+    },
+    {
+      "id": "51",
+      "name": "Cheese Pack",
+      "category": "Food & Grocery",
+      "price": 1800,
+      "description": "Assorted cheese pack with cheddar, mozzarella, and gouda.",
+      "stock": 200,
+      "image": "https://avatars.mds.yandex.net/i?id=7021bddef90ddfe33a9e915087804cd51d309eab-8358323-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Dairy",
+        "brand": "CheeseDelights"
+      }
+    },
+    {
+      "id": "52",
+      "name": "Building Blocks",
+      "category": "Toys & Games",
+      "price": 1500,
+      "description": "Colorful building blocks set for creative play.",
+      "stock": 200,
+      "image": "https://i.pinimg.com/originals/0b/a2/a7/0ba2a7ffde80d21b22b81c9e4bbe2c68.jpg",
+      "details": {
+        "subcategory": "Building Toys",
+        "brand": "BrickFun"
+      }
+    },
+    {
+      "id": "53",
+      "name": "Apple Juice",
+      "category": "Food & Grocery",
+      "price": 600,
+      "description": "Freshly squeezed apple juice with no added sugar.",
+      "stock": 500,
+      "image": "https://avatars.mds.yandex.net/i?id=4033139fe699ac61748acc747d5a2ec959fd561c-5545493-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Beverages",
+        "brand": "FreshSip"
+      }
+    },
+    {
+      "id": "54",
+      "name": "Action Figure Set",
+      "category": "Toys & Games",
+      "price": 3500,
+      "description": "Set of 5 action figures with detailed costumes.",
+      "stock": 60,
+      "image": "https://avatars.mds.yandex.net/i?id=80b44092b44551ee37eca229f40d00efd5280079-6976749-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Action Figures",
+        "brand": "HeroToys"
+      }
+    },
+    {
+      "id": "55",
+      "name": "Sofa Set",
+      "category": "Home & Furniture",
+      "price": 12000,
+      "description": "Modern sofa set with 3 pieces, comfortable cushions and stylish design.",
+      "stock": 30,
+      "image": "https://i.pinimg.com/736x/26/c2/30/26c23071b22915993b2d4ee2b44a0adf--dark-teal-teal-blue.jpg",
+      "details": {
+        "subcategory": "Living Room Furniture",
+        "brand": "ComfortStyle"
+      }
+    },
+    {
+      "id": "56",
+      "name": "Dining Table Set",
+      "category": "Home & Furniture",
+      "price": 8000,
+      "description": "Elegant wooden dining table set with 6 chairs.",
+      "stock": 15,
+      "image": "https://avatars.mds.yandex.net/i?id=8e8a477f916e78ac17abe1b20ce99dd5-4032833-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Dining Furniture",
+        "brand": "HomeCraft"
+      }
+    },
+    {
+      "id": "57",
+      "name": "Coffee Table",
+      "category": "Home & Furniture",
+      "price": 3500,
+      "description": "Stylish and modern coffee table with a glass top and wooden legs.",
+      "stock": 50,
+      "image": "https://avatars.mds.yandex.net/i?id=6b3fe7be733459e17dc9bd620c3dd46c78e4a42d-12528217-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Living Room Furniture",
+        "brand": "StyleCraft"
+      }
+    },
+    {
+      "id": "58",
+      "name": "Bookshelf",
+      "category": "Home & Furniture",
+      "price": 2500,
+      "description": "5-tier bookshelf with spacious shelves for books and decor items.",
+      "stock": 80,
+      "image": "https://avatars.mds.yandex.net/i?id=ce706917b6bb544c6b881ed9f11bd090_l-3553951-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Storage Furniture",
+        "brand": "BookNest"
+      }
+    },
+    {
+      "id": "59",
+      "name": "Armchair",
+      "category": "Home & Furniture",
+      "price": 4500,
+      "description": "Comfortable armchair with plush cushions, perfect for relaxing.",
+      "stock": 40,
+      "image": "https://avatars.mds.yandex.net/i?id=9127f7a21b608b33a048fb6ee9069ae4_l-5558158-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Living Room Furniture",
+        "brand": "RelaxFurniture"
+      }
+    },
+    {
+      "id": "60",
+      "name": "Bed Frame",
+      "category": "Home & Furniture",
+      "price": 7000,
+      "description": "Sturdy wooden bed frame with a sleek, modern design.",
+      "stock": 25,
+      "image": "https://avatars.mds.yandex.net/i?id=6b6dbf348c0e2ac5c1c9066e797cf952c9fb3b4a-9147160-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Bedroom Furniture",
+        "brand": "DreamRest"
+      }
+    },
+    {
+      "id": "61",
+      "name": "Wardrobe",
+      "category": "Home & Furniture",
+      "price": 9500,
+      "description": "Large wardrobe with sliding doors and plenty of storage space.",
+      "stock": 20,
+      "image": "https://i.pinimg.com/originals/8c/13/a1/8c13a10ed70489a6ff9164f46efb5351.jpg",
+      "details": {
+        "subcategory": "Bedroom Furniture",
+        "brand": "SpaceSaver"
+      }
+    },
+    {
+      "id": "62",
+      "name": "Side Table",
+      "category": "Home & Furniture",
+      "price": 1500,
+      "description": "Small side table for the bedroom or living room with storage compartment.",
+      "stock": 100,
+      "image": "https://avatars.mds.yandex.net/i?id=2b8a4afa46c110b5cbf30b223f35cb93e258896d-10698550-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Living Room Furniture",
+        "brand": "RoomEssentials"
+      }
+    },
+    {
+      "id": "63",
+      "name": "Bar Stool Set",
+      "category": "Home & Furniture",
+      "price": 2500,
+      "description": "Set of 2 modern bar stools with comfortable cushioned seats.",
+      "stock": 30,
+      "image": "https://avatars.mds.yandex.net/i?id=b02db0aaa6db45208e021557c210bbdb6a10629e-9227992-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Dining Furniture",
+        "brand": "UrbanSeats"
+      }
+    },
+    {
+      "id": "64",
+      "name": "Console Table",
+      "category": "Home & Furniture",
+      "price": 3000,
+      "description": "Sleek console table for hallway or living room, with storage space.",
+      "stock": 40,
+      "image": "https://avatars.mds.yandex.net/i?id=2d768917458a141b861a0369ce8cbb70-4980892-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Storage Furniture",
+        "brand": "EntryStyle"
+      }
+    },
+    {
+      "id": "65",
+      "name": "Face Cream",
+      "category": "Beauty & Health",
+      "price": 1200,
+      "description": "Hydrating face cream with SPF 30, suitable for all skin types.",
+      "stock": 100,
+      "image": "https://static.life.ru/publications/2020/4/29/518817192295.769.jpg",
+      "details": {
+        "subcategory": "Skincare",
+        "brand": "PureGlow"
+      }
+    },
+    {
+      "id": "66",
+      "name": "Shampoo Set",
+      "category": "Beauty & Health",
+      "price": 800,
+      "description": "Set of 2 shampoos for dry and damaged hair, enriched with argan oil.",
+      "stock": 150,
+      "image": "https://avatars.mds.yandex.net/i?id=067c56efdcb61a451b9b58106cb6ab4c9bce24fc-7663084-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Hair Care",
+        "brand": "AquaShine"
+      }
+    },
+    {
+      "id": "67",
+      "name": "Makeup Kit",
+      "category": "Beauty & Health",
+      "price": 3500,
+      "description": "Complete makeup kit with foundation, blush, eyeshadow, and lipsticks.",
+      "stock": 80,
+      "image": "https://avatars.mds.yandex.net/i?id=268159bce2025eb63a83e2e3f1a1425135ab4a6d-12422300-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Makeup",
+        "brand": "BeautyPro"
+      }
+    },
+    {
+      "id": "68",
+      "name": "Electric Toothbrush",
+      "category": "Electronics",
+      "price": 2500,
+      "description": "High-frequency electric toothbrush with multiple modes for clean teeth.",
+      "stock": 200,
+      "image": "https://avatars.mds.yandex.net/i?id=80d2c6512106db17e54e700b57961a95_l-5676909-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Oral Care",
+        "brand": "CleanSmile"
+      }
+    },
+    {
+      "id": "69",
+      "name": "Nail Polish Set",
+      "category": "Beauty & Health",
+      "price": 900,
+      "description": "Set of 5 vibrant nail polishes with long-lasting finish.",
+      "stock": 120,
+      "image": "https://avatars.mds.yandex.net/i?id=750e81b7671853ec2675e3d826114adcd48a0649-13239724-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Nail Care",
+        "brand": "ColorWave"
+      }
+    },
+    {
+      "id": "70",
+      "name": "Face Mask Pack",
+      "category": "Beauty & Health",
+      "price": 600,
+      "description": "Set of 10 hydrating and rejuvenating face masks for all skin types.",
+      "stock": 200,
+      "image": "https://avatars.mds.yandex.net/i?id=73b4929387f68bab3fc9c344b94892aea868ddbb-6947221-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Skincare",
+        "brand": "GlowUp"
+      }
+    },
+    {
+      "id": "71",
+      "name": "Hair Serum",
+      "category": "Beauty & Health",
+      "price": 1500,
+      "description": "Nourishing hair serum to prevent split ends and add shine.",
+      "stock": 100,
+      "image": "https://avatars.mds.yandex.net/i?id=b1b92eb61d6d100ac30b52691ad9c35ec1858105-4980892-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Hair Care",
+        "brand": "SilkGloss"
+      }
+    },
+    {
+      "id": "72",
+      "name": "Body Lotion",
+      "category": "Beauty & Health",
+      "price": 800,
+      "description": "Moisturizing body lotion with shea butter and vitamin E.",
+      "stock": 150,
+      "image": "https://avatars.mds.yandex.net/i?id=e2435fed94c87e55d6eb814a276f70e3_l-4598847-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Skincare",
+        "brand": "LuxeCare"
+      }
+    },
+    {
+      "id": "73",
+      "name": "The Great Gatsby",
+      "category": "Books",
+      "price": 900,
+      "description": "Classic novel by F. Scott Fitzgerald about love, wealth, and the American Dream.",
+      "stock": 200,
+      "image": "https://i.pinimg.com/736x/6e/f3/f3/6ef3f3fbd7c4680357be522a872bea55.jpg",
+      "details": {
+        "subcategory": "Fiction",
+        "author": "F. Scott Fitzgerald"
+      }
+    },
+    {
+      "id": "74",
+      "name": "1984",
+      "category": "Books",
+      "price": 1100,
+      "description": "Dystopian novel by George Orwell, exploring a totalitarian society.",
+      "stock": 150,
+      "image": "https://img.labirint.ru/rcimg/e8ab6f7de6feb419b3e7a7f7d3382c9d/1920x1080/comments_pic/1730/0_c4e342023f10be040daf455be24a7045_1501097028.jpg?1501097102",
+      "details": {
+        "subcategory": "Dystopian",
+        "author": "George Orwell"
+      }
+    },
+    {
+      "id": "75",
+      "name": "To Kill a Mockingbird",
+      "category": "Books",
+      "price": 950,
+      "description": "Harper Lee's Pulitzer Prize-winning novel about racial injustice in the American South.",
+      "stock": 180,
+      "image": "https://avatars.mds.yandex.net/i?id=1b5066e712378f624ce44a2eba227d9a1a371080-5031277-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Fiction",
+        "author": "Harper Lee"
+      }
+    },
+    {
+      "id": "76",
+      "name": "The Catcher in the Rye",
+      "category": "Books",
+      "price": 950,
+      "description": "A novel by J.D. Salinger about teenage rebellion and existential disillusionment.",
+      "stock": 170,
+      "image": "https://avatars.mds.yandex.net/i?id=269cdb283bb193c13c20385a406b17887e29d61f-10807932-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Fiction",
+        "author": "J.D. Salinger"
+      }
+    },
+    {
+      "id": "77",
+      "name": "Brave New World",
+      "category": "Books",
+      "price": 1100,
+      "description": "A dystopian novel by Aldous Huxley about a future society controlled by technology and social engineering.",
+      "stock": 160,
+      "image": "https://m.media-amazon.com/images/I/81fiJzvcB2L._AC_UL960_QL65_.jpg",
+      "details": {
+        "subcategory": "Dystopian",
+        "author": "Aldous Huxley"
+      }
+    },
+    {
+      "id": "78",
+      "name": "Pride and Prejudice",
+      "category": "Books",
+      "price": 850,
+      "description": "A romantic novel by Jane Austen about manners, love, and societal expectations.",
+      "stock": 220,
+      "image": "https://avatars.mds.yandex.net/i?id=121fdd047a3e3ebeda4315790aa9bf2e31b99ee6c0011514-5428804-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Romance",
+        "author": "Jane Austen"
+      }
+    },
+    {
+      "id": "79",
+      "name": "The Hobbit",
+      "category": "Books",
+      "price": 1200,
+      "description": "A fantasy novel by J.R.R. Tolkien about Bilbo Baggins' adventure in Middle-Earth.",
+      "stock": 150,
+      "image": "https://i.pinimg.com/736x/3b/d3/0a/3bd30a4fb43a9dee2748fbc224262958.jpg",
+      "details": {
+        "subcategory": "Fantasy",
+        "author": "J.R.R. Tolkien"
+      }
+    },
+    {
+      "id": "80",
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "category": "Books",
+      "price": 1500,
+      "description": "The first book in J.R.R. Tolkien's epic fantasy trilogy about a quest to destroy a powerful ring.",
+      "stock": 120,
+      "image": "https://avatars.mds.yandex.net/i?id=dfe11646db895f1e2992506db00f9536905946f9-12728186-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Fantasy",
+        "author": "J.R.R. Tolkien"
+      }
+    },
+    {
+      "id": "81",
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "category": "Books",
+      "price": 1200,
+      "description": "The first book in J.K. Rowling's magical series about a young wizard, Harry Potter.",
+      "stock": 200,
+      "image": "https://i.pinimg.com/originals/6e/2d/0d/6e2d0d5ca18862f7eae4fd3d69349933.jpg",
+      "details": {
+        "subcategory": "Fantasy",
+        "author": "J.K. Rowling"
+      }
+    },
+    {
+      "id": "82",
+      "name": "The Alchemist",
+      "category": "Books",
+      "price": 950,
+      "description": "A philosophical novel by Paulo Coelho about pursuing your dreams and finding your personal legend.",
+      "stock": 180,
+      "image": "https://avatars.mds.yandex.net/i?id=7c9c905dc6cabcbc529a5287086ba9f3e89570bd-8342740-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Fiction",
+        "author": "Paulo Coelho"
+      }
+    },
+    {
+      "id": "83",
+      "name": "The Book Thief",
+      "category": "Books",
+      "price": 1100,
+      "description": "A historical novel by Markus Zusak set in Nazi Germany, narrated by Death.",
+      "stock": 140,
+      "image": "https://avatars.mds.yandex.net/i?id=9497893f0a9276c892756f52815e30f828ce1ba3-9211188-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Historical Fiction",
+        "author": "Markus Zusak"
+      }
+    },
+    {
+      "id": "84",
+      "name": "The Hunger Games",
+      "category": "Books",
+      "price": 1000,
+      "description": "A dystopian novel by Suzanne Collins, focusing on survival and rebellion in a totalitarian society.",
+      "stock": 200,
+      "image": "https://avatars.mds.yandex.net/i?id=f026b72b0164dc55d0aad8d4c66afc856c8b97c5-12627914-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Dystopian",
+        "author": "Suzanne Collins"
+      }
+    },
+    {
+      "id": "85",
+      "name": "Moby Dick",
+      "category": "Books",
+      "price": 1200,
+      "description": "Herman Melville's classic tale of obsession and revenge, set aboard a whaling ship.",
+      "stock": 100,
+      "image": "https://avatars.mds.yandex.net/i?id=feac9472be5b071546fdae2c6900b3dd45d253f1-8483958-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Classic",
+        "author": "Herman Melville"
+      }
+    },
+    {
+      "id": "86",
+      "name": "The Odyssey",
+      "category": "Books",
+      "price": 850,
+      "description": "The epic Greek poem by Homer about Odysseus' journey home after the Trojan War.",
+      "stock": 150,
+      "image": "https://avatars.mds.yandex.net/i?id=fbd958591756e766eba05153338fa7d7ff116efc-11467820-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Classics",
+        "author": "Homer"
+      }
+    },
+    {
+      "id": "87",
+      "name": "The Da Vinci Code",
+      "category": "Books",
+      "price": 950,
+      "description": "A thriller novel by Dan Brown about a professor investigating religious secrets.",
+      "stock": 180,
+      "image": "https://avatars.mds.yandex.net/i?id=557a9055c1d83cb1ffd8c12df2bf04ff3421a22e-10727636-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Thriller",
+        "author": "Dan Brown"
+      }
+    },
+    {
+      "id": "88",
+      "name": "The Secret",
+      "category": "Books",
+      "price": 950,
+      "description": "A self-help book by Rhonda Byrne that explores the power of positive thinking.",
+      "stock": 160,
+      "image": "https://m.media-amazon.com/images/I/81oxd+mZSZL._AC_UL960_QL65_.jpg",
+      "details": {
+        "subcategory": "Self-help",
+        "author": "Rhonda Byrne"
+      }
+    },
+    {
+      "id": "89",
+      "name": "Tennis Racket",
+      "category": "Sports & Outdoors",
+      "price": 2500,
+      "description": "High-quality tennis racket with advanced grip and durability.",
+      "stock": 100,
+      "image": "https://avatars.mds.yandex.net/i?id=79604eff8f143d2fd8f7f140fbd60f1375d1ee099d131fd7-12346182-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Tennis",
+        "brand": "Wilson"
+      }
+    },
+    {
+      "id": "90",
+      "name": "Football",
+      "category": "Sports & Outdoors",
+      "price": 1500,
+      "description": "Professional football with excellent grip and durability for all weather conditions.",
+      "stock": 120,
+      "image": "https://avatars.mds.yandex.net/i?id=f3ebfdc4dd1112452dfa989c09defd3da9e33910-11543356-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Football",
+        "brand": "Nike"
+      }
+    },
+    {
+      "id": "91",
+      "name": "Yoga Mat",
+      "category": "Sports & Outdoors",
+      "price": 600,
+      "description": "Non-slip yoga mat with extra cushion for a comfortable workout.",
+      "stock": 200,
+      "image": "https://i.ytimg.com/vi/Nq6KK9HhpwM/maxresdefault.jpg",
+      "details": {
+        "subcategory": "Yoga",
+        "brand": "Liforme"
+      }
+    },
+    {
+      "id": "92",
+      "name": "Running Shoes",
+      "category": "Clothing",
+      "price": 3500,
+      "description": "Lightweight running shoes with cushioned sole for optimal comfort and performance.",
+      "stock": 150,
+      "image": "https://avatars.mds.yandex.net/i?id=5790ddad0ef70c1815454a6b264cb88c_l-9853586-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Running",
+        "brand": "Adidas"
+      }
+    },
+    {
+      "id": "93",
+      "name": "Basketball",
+      "category": "Sports & Outdoors",
+      "price": 1200,
+      "description": "Durable basketball designed for indoor and outdoor play.",
+      "stock": 180,
+      "image": "https://avatars.mds.yandex.net/i?id=71e656ec0b600cd8a02515474f857e23601d21a0-9139469-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Basketball",
+        "brand": "Spalding"
+      }
+    },
+    {
+      "id": "94",
+      "name": "Hiking Backpack",
+      "category": "Sports & Outdoors",
+      "price": 4000,
+      "description": "Comfortable and spacious hiking backpack with multiple compartments for essentials.",
+      "stock": 130,
+      "image": "https://avatars.mds.yandex.net/i?id=6dc5937c0598892eaa6c69d0a628498e529974fb-12533415-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Hiking",
+        "brand": "Osprey"
+      }
+    },
+    {
+      "id": "95",
+      "name": "Swimming Goggles",
+      "category": "Sports & Outdoors",
+      "price": 500,
+      "description": "Anti-fog swimming goggles with adjustable straps for comfort and a secure fit.",
+      "stock": 300,
+      "image": "https://avatars.mds.yandex.net/i?id=975d95475ffed41e6279bccf08393fb29603a31b-6383766-images-thumbs&n=13",
+      "details": {
+        "subcategory": "Swimming",
+        "brand": "Speedo"
+      }
     }
   ],
   "categories": [
@@ -517,6 +1276,42 @@
       "name": "Automotive",
       "description": "Automotive products, from car parts to accessories.",
       "icon": "🚗"
+    },
+    {
+      "id": "5",
+      "name": "Home & Furniture",
+      "description": "Furniture and decor to make your home stylish and comfortable.",
+      "icon": "🛋️"
+    },
+    {
+      "id": "6",
+      "name": "Beauty & Health",
+      "description": "Beauty products, skincare, and health items for self-care.",
+      "icon": "💄"
+    },
+    {
+      "id": "7",
+      "name": "Sports & Outdoors",
+      "description": "Sporting goods and outdoor gear for adventure and fitness.",
+      "icon": "⚽"
+    },
+    {
+      "id": "8",
+      "name": "Books",
+      "description": "Books for all ages and interests, from fiction to non-fiction.",
+      "icon": "📚"
+    },
+    {
+      "id": "9",
+      "name": "Toys & Games",
+      "description": "Toys for children and games for all ages to enjoy.",
+      "icon": "🧸"
+    },
+    {
+      "id": "10",
+      "name": "Food & Grocery",
+      "description": "Fresh food, beverages, and grocery essentials.",
+      "icon": "🍎"
     }
   ],
   "inBasket": [
@@ -575,6 +1370,438 @@
       "image": "https://avatars.mds.yandex.net/i?id=821c1962f6b9b23828c6840799889457-6209931-images-thumbs&n=13",
       "quantity": 1,
       "username": "dddd"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "2",
+      "productName": "Nike T-shirt",
+      "price": 1500,
+      "image": "https://avatars.mds.yandex.net/i?id=975815777fa3f857a924bbeb94fb24f6ce10bea6-10124751-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "2",
+      "productName": "Nike T-shirt",
+      "price": 1500,
+      "image": "https://avatars.mds.yandex.net/i?id=975815777fa3f857a924bbeb94fb24f6ce10bea6-10124751-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "12",
+      "productName": "Cat Tree Tower",
+      "price": 4500,
+      "image": "https://avatars.mds.yandex.net/i?id=6c26adc1a23d73d1b54e641d10388106c0cf0811-9843573-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "12",
+      "productName": "Cat Tree Tower",
+      "price": 4500,
+      "image": "https://avatars.mds.yandex.net/i?id=6c26adc1a23d73d1b54e641d10388106c0cf0811-9843573-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "12",
+      "productName": "Cat Tree Tower",
+      "price": 4500,
+      "image": "https://avatars.mds.yandex.net/i?id=6c26adc1a23d73d1b54e641d10388106c0cf0811-9843573-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "12",
+      "productName": "Cat Tree Tower",
+      "price": 4500,
+      "image": "https://avatars.mds.yandex.net/i?id=6c26adc1a23d73d1b54e641d10388106c0cf0811-9843573-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "12",
+      "productName": "Cat Tree Tower",
+      "price": 4500,
+      "image": "https://avatars.mds.yandex.net/i?id=6c26adc1a23d73d1b54e641d10388106c0cf0811-9843573-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "12",
+      "productName": "Cat Tree Tower",
+      "price": 4500,
+      "image": "https://avatars.mds.yandex.net/i?id=6c26adc1a23d73d1b54e641d10388106c0cf0811-9843573-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "dddd"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "sanzh"
+    },
+    {
+      "id": "7",
+      "productName": "Dell XPS 13 Laptop",
+      "price": 90000,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "7",
+      "productName": "Dell XPS 13 Laptop",
+      "price": 90000,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "7",
+      "productName": "Dell XPS 13 Laptop",
+      "price": 90000,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "7",
+      "productName": "Dell XPS 13 Laptop",
+      "price": 90000,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "7",
+      "productName": "Dell XPS 13 Laptop",
+      "price": 90000,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "7",
+      "productName": "Dell XPS 13 Laptop",
+      "price": 90000,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "7",
+      "productName": "Dell XPS 13 Laptop",
+      "price": 90000,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "7",
+      "productName": "Dell XPS 13 Laptop",
+      "price": 90000,
+      "image": "https://avatars.mds.yandex.net/i?id=af6519aec27639b6fac55a6461a1ad801d35ca26-5858081-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "4",
+      "productName": "Zara Dress",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=d49fc52bd8af9c36f69c935e5d879d103fd0ad33-8339915-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "94",
+      "productName": "Hiking Backpack",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=6dc5937c0598892eaa6c69d0a628498e529974fb-12533415-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "94",
+      "productName": "Hiking Backpack",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=6dc5937c0598892eaa6c69d0a628498e529974fb-12533415-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "94",
+      "productName": "Hiking Backpack",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=6dc5937c0598892eaa6c69d0a628498e529974fb-12533415-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "94",
+      "productName": "Hiking Backpack",
+      "price": 4000,
+      "image": "https://avatars.mds.yandex.net/i?id=6dc5937c0598892eaa6c69d0a628498e529974fb-12533415-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "2",
+      "productName": "Nike T-shirt",
+      "price": 1500,
+      "image": "https://avatars.mds.yandex.net/i?id=975815777fa3f857a924bbeb94fb24f6ce10bea6-10124751-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "2",
+      "productName": "Nike T-shirt",
+      "price": 1500,
+      "image": "https://avatars.mds.yandex.net/i?id=975815777fa3f857a924bbeb94fb24f6ce10bea6-10124751-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "Gani"
+    },
+    {
+      "id": "87",
+      "productName": "The Da Vinci Code",
+      "price": 950,
+      "image": "https://avatars.mds.yandex.net/i?id=557a9055c1d83cb1ffd8c12df2bf04ff3421a22e-10727636-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "KKKKK"
+    },
+    {
+      "id": "87",
+      "productName": "The Da Vinci Code",
+      "price": 950,
+      "image": "https://avatars.mds.yandex.net/i?id=557a9055c1d83cb1ffd8c12df2bf04ff3421a22e-10727636-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "KKKKK"
+    },
+    {
+      "id": "75",
+      "productName": "To Kill a Mockingbird",
+      "price": 950,
+      "image": "https://avatars.mds.yandex.net/i?id=1b5066e712378f624ce44a2eba227d9a1a371080-5031277-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "yelnur"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "yelnur"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "yelnur"
+    },
+    {
+      "id": "3",
+      "productName": "The North Face Jacket",
+      "price": 9500,
+      "image": "https://avatars.mds.yandex.net/i?id=5f721dfc6d5f834e90973d71dc0925ca741ab8f0-10702304-images-thumbs&n=13",
+      "quantity": 1,
+      "username": "yelnur"
     }
   ]
 }

@@ -39,14 +39,22 @@ const productSlice = createSlice({
   name: "products",
   initialState,
   reducers: {
+    filterProductsByCategory: (state, action) => {
+      const categoryName = action.payload;
+      state.filteredProducts = state.products.filter(
+        (product) => product.category === categoryName
+      );
+    },
+
     filterProducts: (state, action) => {
       const filter = action.payload;
       state.filteredProducts = state.products.filter((product) =>
         product.name.toLowerCase().includes(filter.toLowerCase())
       );
     },
+
     resetFilteredProducts: (state) => {
-      state.filteredProducts = [];
+      state.filteredProducts = state.products;
     },
   },
   extraReducers: (builder) => {
@@ -72,6 +80,10 @@ const productSlice = createSlice({
   },
 });
 
-export const { filterProducts, resetFilteredProducts } = productSlice.actions;
+export const {
+  filterProductsByCategory,
+  filterProducts,
+  resetFilteredProducts,
+} = productSlice.actions;
 
 export default productSlice.reducer;

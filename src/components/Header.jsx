@@ -4,17 +4,19 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const linkStyle =
-    "lg:text-xl max-sm:text-center max-sm:text-[1rem] max-sm:w-[20px] max-sm:h-[20px] p-[0.5rem] hover:bg-[#1a1a1a] rounded-lg hover:text-white transition duration-200 ease-in-out";
+    "lg:text-xl max-sm:text-center max-sm:text-[1rem]  max-sm:h-[20px] p-[0.5rem] hover:bg-[#1a1a1a] rounded-lg hover:text-white transition duration-200 ease-in-out";
 
   const isActive = useCallback(
     ({ isActive }) =>
-      isActive ? "p-[0.5rem] bg-[#1a1a1a] rounded-lg text-white" : linkStyle,
+      isActive
+        ? "p-[0.5rem] bg-[#1a1a1a]  max-sm:text-[1rem]  rounded-lg text-white"
+        : linkStyle,
     [linkStyle]
   );
 
   return (
     <header
-      className="bg-white h-[10vh] border flex justify-around items-center shadow-md z-10
+      className="bg-white h-[10vh] border flex justify-around items-center shadow-md z-50
       lg:sticky lg:top-0 lg:left-0 
       md:fixed md:bottom-0 md:left-0 
       max-sm:fixed max-sm:bottom-0 max-sm:left-0 

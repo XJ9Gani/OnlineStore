@@ -22,7 +22,7 @@ const UserProfile = () => {
   }, [currentUser]);
 
   return (
-    <section className="w-[90vw] h-[100vh] mx-auto border shadow-sm p-6">
+    <section className="w-[90vw] h-[130vh] mx-auto border shadow-sm p-6">
       <div className="flex justify-center items-center flex-col">
         <img
           className="w-[200px] h-[200px] border rounded-full object-cover"
@@ -32,7 +32,7 @@ const UserProfile = () => {
         <h1 className="text-center text-2xl">{currentUser?.username}</h1>
       </div>
 
-      <div className="mt-6">
+      <div className="mt-6 h-[80vh] overflow-x-hidden mb-[100px]">
         <h2 className="text-3xl font-semibold">Your Products</h2>
         {userProducts.length > 0 ? (
           <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
